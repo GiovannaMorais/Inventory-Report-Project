@@ -25,5 +25,5 @@ class Inventory:
 
         if file_type == 'simples':
             return SimpleReport.generate(list_file)
-        if file_type == 'completo':
+        else:
             return CompleteReport.generate(list_file)
